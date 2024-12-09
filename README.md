@@ -12,8 +12,8 @@
 
 *Node.js*
 
-## Comandos Azure CLI
+## Comandos Azure CLI no CMD
 1. Conecte-se a sua assinatura Azure:
-    ```cmd
+    ```sh
     az login
     ```
