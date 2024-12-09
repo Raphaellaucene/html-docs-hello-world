@@ -5,11 +5,11 @@
 - Implantar um aplicativo no Serviço de Aplicativo usando os comandos da CLI do Azure.
 
 # Requisitos:
----
  - Pelo menos 6 meses de expeiência no desenvolvimento de soluções escalonáveis em todas as fases do desenvolvimento de software.
  - Ter uma compreensão básica do Azure e dos conceitos de nuvem, serviços e portal Azure.
  - Conhecimentos básicos em C#, .Net Framework, HTML e uso de REST em aplictivos.
  - Familiaridade com a CLI do Azure e/ou PowerShell.
+
 ---
 
 # Introdução Serviço de Aplicativo do Azure
@@ -29,16 +29,15 @@
     ```sh
     az webapp up -g AZ-204 -n <nomeapp> --html
     ```
-
-# Readme Original..
 ---
+# Readme Original..
+
 topic: HTML Hello World
 languages:
   - HTML
 products:
   - Azure App Service
   - Azure Web Apps
----
 
 # HTML Hello World
 
