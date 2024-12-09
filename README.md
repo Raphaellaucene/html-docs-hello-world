@@ -1,10 +1,12 @@
 # Objetivo
+
 - Descrever os principais componentes e valores do Serviço de Aplicativos do Azure.
 - Explicar como o Serviço de Aplicativo do Azure gerencia a autenticação e a autorização.
 - Identificar métodos para controlar o tráfego de entrada e saída para seu aplicativo Web.
 - Implantar um aplicativo no Serviço de Aplicativo usando os comandos da CLI do Azure.
 
 # Requisitos:
+
  - Pelo menos 6 meses de expeiência no desenvolvimento de soluções escalonáveis em todas as fases do desenvolvimento de software.
  - Ter uma compreensão básica do Azure e dos conceitos de nuvem, serviços e portal Azure.
  - Conhecimentos básicos em C#, .Net Framework, HTML e uso de REST em aplictivos.
@@ -13,24 +15,34 @@
 ---
 
 # Introdução Serviço de Aplicativo do Azure
+
 - O Serviço de Aplicativo do Azure é um serviço com base em HTTP para hospedagem de aplicativos Web, API's REST e back-ends móveis.
 - Os aplicativos são executados e dimensionados em ambientes baseados no Window e Linux.
 
-# Comandos Azure CLI no CMD
+## Comandos Azure CLI no CMD
+
 1. Conecte-se a sua assinatura Azure:
     ```sh
     az login
     ```
 2. Listar grupos de recursos:
     ```sh
-    az lgroup list --query "[].{id:name}" -o tsv
+    az group list --query "[].{id:name}" -o tsv
     ```
 3. Criar o aplicativo e subir atualizações:
     ```sh
-    az webapp up -g AZ-204 -n <nomeapp> --html
+    az webapp up -g <grupoderecurso> -n <nomeapp> --html
     ```
 ---
-# Readme Original..
+
+# Configurações do Aplicativo Web
+
+- Configurações de aplicativos associadas aos slots de implantação
+- Opções de instalação de certificados TLS para seu app
+- Log de diagnóstico para seu aplicativo para auxiliar no monitoramento e na depuração
+- Aplicativo virtual para mapeamentos de diretório
+
+# Readme Sample
 
 topic: HTML Hello World
 languages:
