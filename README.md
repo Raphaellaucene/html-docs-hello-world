@@ -57,7 +57,7 @@
 
 ---
 
-# Readme Sample
+# Sample
 
 topic: HTML Hello World
 languages:
