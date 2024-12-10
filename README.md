@@ -33,6 +33,11 @@
     ```sh
     az webapp up -g <grupoderecurso> -n <nomeapp> --html
     ```
+4. Obter log stream:
+    ```sh
+    az webapp log tail --name <nomeapp> --resource-group <grupoderecurso>
+    ```
+
 ---
 
 # Configurações do Aplicativo Web
@@ -41,6 +46,16 @@
 - Opções de instalação de certificados TLS para seu app
 - Log de diagnóstico para seu aplicativo para auxiliar no monitoramento e na depuração
 - Aplicativo virtual para mapeamentos de diretório
+
+---
+
+# Dimensionameto Automático
+
+- Identificar cenários em que o dimensionamento automático é uma solução adequada
+- Regras de dimensionamento para um web app
+- Monitorar os efeitos do dimensionamento automático
+
+---
 
 # Readme Sample
 
