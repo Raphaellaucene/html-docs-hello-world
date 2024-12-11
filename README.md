@@ -54,6 +54,15 @@
 - Identificar cenários em que o dimensionamento automático é uma solução adequada
 - Regras de dimensionamento para um web app
 - Monitorar os efeitos do dimensionamento automático
+- Scale Up e Scale Out
+
+---
+
+# Slots
+
+- Executar trocas manuais e habilitar a troca automática
+- Rotear o tráfego de forma manual e automática
+- Blue e Green Deployment
 
 ---
 
